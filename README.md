@@ -6,10 +6,10 @@
 [![Prisma](https://img.shields.io/badge/Prisma-6.0-2D3748?logo=prisma)](https://www.prisma.io/)
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Supabase-3ECF8E?logo=supabase)](https://supabase.com/)
 [![Groq](https://img.shields.io/badge/AI-Groq%20LLaMA%203.3-orange)](https://groq.com/)
-[![Vercel](https://img.shields.io/badge/Vercel-Hospedado-black?logo=vercel)](https://mira-finance-fy4e.vercel.app/)
+[![Vercel](https://img.shields.io/badge/Vercel-Hospedado-black?logo=vercel)](https://mira-finance-one.vercel.app/)
 [![Remotion](https://img.shields.io/badge/Video-Remotion-blue?logo=react)](https://www.remotion.dev/)
 
-🔗 **Acesse o App online:** [mira-finance-fy4e.vercel.app](https://mira-finance-fy4e.vercel.app/)
+🔗 **Acesse o App online:** [mira-finance-one.vercel.app](https://mira-finance-one.vercel.app/)
 
 ---
 
