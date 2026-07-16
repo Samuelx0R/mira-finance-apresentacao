@@ -1,5 +1,8 @@
-# 💸 Mira — AI Financial Assistant
+<p align="center">
+  <img src="docs/screenshots/logo.png" width="120" alt="Mira Logo" />
+</p>
 
+# 💸 Mira — AI Financial Assistant
 > Projeto desenvolvido para o Desafio de Vibe Coding da DIO: **App de Organização de Finanças Pessoais com IA**.
 
 [![Next.js](https://img.shields.io/badge/Next.js-16.2-black?logo=next.js)](https://nextjs.org/)
