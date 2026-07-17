@@ -236,6 +236,7 @@ Durante a fase de testes (Beta), o projeto tem recebido melhorias contínuas foc
 
 <br><br>
 <div align="center">
-  <h3 style="color: black; margin-bottom: -10px;">fase</h3>
-  <h1><font color="red" size="10">BETA</font></h1>
+  <img src="https://readme-typing-svg.demolab.com/?font=Inter&weight=600&size=24&color=000000&center=true&vCenter=true&width=200&height=40&lines=fase" alt="fase" />
+  <br>
+  <img src="https://readme-typing-svg.demolab.com/?font=Inter&weight=900&size=80&color=FF0000&center=true&vCenter=true&width=400&height=120&lines=BETA" alt="BETA" />
 </div>
