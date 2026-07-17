@@ -12,7 +12,7 @@
 [![Vercel](https://img.shields.io/badge/Vercel-Hospedado-black?logo=vercel)](https://mira-finance-one.vercel.app/)
 [![Remotion](https://img.shields.io/badge/Video-Remotion-blue?logo=react)](https://www.remotion.dev/)
 
-🔗 **Acesse o App online:** [mira-finance-one.vercel.app](https://mira-finance-one.vercel.app/)
+🔗 **Acesse o App online:** [Closed](BETA)
 
 ---
 
