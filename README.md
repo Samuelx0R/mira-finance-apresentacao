@@ -16,6 +16,12 @@
 
 ---
 
+## 🌐 Website Promocional
+
+O projeto agora conta com uma **Landing Page Promocional** moderna e de alta performance. Ela foi construída com animações dinâmicas, *glassmorphism* e design "True Mobile" (fluido e sem travamentos no scroll), focada na conversão e apresentação do produto, com seções detalhadas de features e chamada para ação integrada à plataforma.
+
+---
+
 ## 🧠 O que é a Mira?
 
 A **Mira** é um Web App de finanças pessoais que elimina o atrito do controle financeiro tradicional através de **Inteligência Artificial conversacional**.
@@ -189,6 +195,17 @@ POST /api/chat/confirm  →  Prisma.create() no PostgreSQL
         ↓
 Dashboard atualizado em tempo real via onRefresh()
 ```
+
+---
+
+## 🚀 Atualizações Recentes (Fase Beta)
+
+Durante a fase de testes (Beta), o projeto tem recebido melhorias contínuas focadas na estabilidade e segurança corporativa:
+- **Landing Page Dinâmica**: Criação do novo website promocional altamente otimizado, com animações fluidas na *Hero section* e componentes interativos como o *Voice Engine*, rodando lisos até em celulares antigos.
+- **Auditoria de Segurança (P0)**: Varredura profunda em todo o código que mapeou e planejou a mitigação de vulnerabilidades (ex: ausência de *rate limit*, falhas no fluxo de 2FA e manipulação de sessão em rotas da API).
+- **Transparência Legal**: Inclusão de **Termos de Uso** e aviso da fase Beta na tela de criação de conta, alertando os usuários sobre instabilidades temporárias e bugs, com base na legislação brasileira, além de *opt-in* para novidades.
+- **Otimizações Mobile-First**: Resolução de gargalos de renderização e travamentos de scroll causados por excesso de listeners e animações complexas em viewports reduzidos.
+- **Polimento de UI/UX**: Inúmeras correções visuais e de lógica no Dashboard (como navegação em lote de transações, filtros e ordenação visual).
 
 ---
 
