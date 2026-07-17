@@ -233,3 +233,9 @@ Durante a fase de testes (Beta), o projeto tem recebido melhorias contínuas foc
 
 *Desenvolvido com ☕, muito Vibe Coding por **Samuel Ramos** para o Bootcamp DIO.*  
 *Construído e otimizado com o auxílio do **Antigravity** e ferramentas da suite **Google**.*
+
+<br><br>
+<div align="center">
+  <h3 style="color: black; margin-bottom: -10px;">fase</h3>
+  <h1><font color="red" size="10">BETA</font></h1>
+</div>
