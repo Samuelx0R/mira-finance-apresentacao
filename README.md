@@ -2,18 +2,19 @@
   <img src="docs/screenshots/logo.png" width="120" alt="Mira Logo" />
 </p>
 
-# 💸 Mira — AI Financial Assistant
+# 💸 Mira — Assistente Financeiro com IA
 > O projeto nasceu durante o Desafio de Vibe Coding da DIO e continuou evoluindo depois do primeiro MVP, passando por ciclos de melhoria visual, revisão das regras financeiras, testes e estabilização dos fluxos críticos.
 
 [![Next.js](https://img.shields.io/badge/Next.js-16.2-black?logo=next.js)](https://nextjs.org/)
 [![Prisma](https://img.shields.io/badge/Prisma-6.0-2D3748?logo=prisma)](https://www.prisma.io/)
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Supabase-3ECF8E?logo=supabase)](https://supabase.com/)
 [![Groq](https://img.shields.io/badge/AI-openai%2Fgpt--oss--120b-orange)](https://groq.com/)
-[![Vercel](https://img.shields.io/badge/Vercel-Hospedado-black?logo=vercel)](https://mira-finance-one.vercel.app/)
+![Vercel](https://img.shields.io/badge/Vercel-Hospedado-black?logo=vercel)
 [![Remotion](https://img.shields.io/badge/Video-Remotion-blue?logo=react)](https://www.remotion.dev/)
 
-🔗 **Acesse o App online:** [https://mira-finance-one.vercel.app/](https://mira-finance-one.vercel.app/)
-*(A aplicação está em beta. Uma conta demonstrativa pode ser fornecida separadamente. Utilize somente dados fictícios na demonstração.)*
+🔐 **Demonstração disponível mediante acesso controlado.**
+
+> O link e as credenciais de uma conta com dados fictícios são fornecidos separadamente.
 
 ---
 
@@ -73,7 +74,7 @@ A IA identifica a intenção, extrai e estrutura as informações e apresenta um
 
 A **Mira** foi desenhada desde o início com foco na experiência do usuário em dispositivos móveis. Entendemos que o controle financeiro acontece na correria do dia a dia — ao pagar uma conta na rua ou logo após fazer uma compra. 
 
-<video src="https://raw.githubusercontent.com/Samuelx0R/mira-finance/main/docs/screenshots/mobile_demo.webm" autoplay loop muted playsinline width="100%" style="max-width: 400px; display: block; margin: 0 auto 20px;"></video>
+<video src="https://raw.githubusercontent.com/Samuelx0R/mira-finance-apresentacao/apresentacao/docs/screenshots/mobile_demo.webm" autoplay loop muted playsinline width="100%" style="max-width: 400px; display: block; margin: 0 auto 20px;"></video>
 
 * **UX Adaptada para o Polegar**: A navegação mobile utiliza uma barra inferior (*Bottom Navigation Bar*) permitindo acesso rápido a todas as abas principais com uma única mão.
 * **Componentes Fluídos**: Gráficos do Recharts, modais de confirmação e tabelas de lançamentos reorganizam-se dinamicamente via Flexbox/Grid CSS nativos para caber perfeitamente de telas pequenas a telas grandes de desktop.
@@ -92,7 +93,7 @@ A **Mira** foi desenhada desde o início com foco na experiência do usuário em
 | 🎯 **Metas e aportes** | Defina objetivos financeiros e registre aportes para acompanhar seu progresso. |
 | 💡 **Insights** | Visualizações e dados agregados sobre sua vida financeira. |
 | 📤 **Exportação CSV** | Exporte facilmente seus lançamentos. |
-| 🔐 **Segurança e acesso** | Conta com verificação de e-mail, recuperação de senha, autenticação JWT stateless com cookies HttpOnly e 2FA (TOTP). |
+| 🔐 **Segurança e acesso** | Conta com verificação de e-mail, recuperação de senha, autenticação JWT com cookies HttpOnly e 2FA (TOTP). |
 | 📱 **Responsividade** | Experiência focada no uso mobile, adaptável para qualquer tela. |
 
 ---
@@ -102,6 +103,7 @@ A **Mira** foi desenhada desde o início com foco na experiência do usuário em
 | Camada | Tecnologia |
 |---|---|
 | **Framework** | Next.js 16.2 |
+| **Runtime** | Node.js 24 |
 | **UI** | React 19 + Framer Motion + CSS Nativo |
 | **Banco de Dados** | PostgreSQL via Supabase + Prisma ORM 6 |
 | **Inteligência Artificial** | Vercel AI SDK + openai/gpt-oss-120b via Groq |
@@ -147,7 +149,7 @@ complicação.
 - Deploy na Vercel
 ```
 
-Com o amadurecimento do projeto, as instruções da IA evoluíram através de engenharia de prompt, definindo o contexto, objetivo, intenções reconhecidas, campos obrigatórios, comportamento de fazer perguntas para informações ausentes, formato estruturado da resposta e comportamentos proibidos, sempre reforçando a necessidade de confirmação e reação a respostas inválidas, até a conclusão efetiva da operação.
+Com o amadurecimento do projeto, o briefing inicial foi dividido em instruções mais específicas. Passei a definir quais intenções a IA poderia reconhecer, quais campos eram obrigatórios, quando ela deveria fazer uma nova pergunta e qual formato a aplicação esperava receber. Também foram estabelecidos comportamentos proibidos e critérios claros para diferenciar uma sugestão pendente de uma operação realmente concluída.
 
 ---
 
@@ -210,12 +212,12 @@ Os principais fluxos passaram por um processo de fortalecimento:
 - Fortalecimento de cadastro, verificação de e-mail, recuperação de senha e 2FA.
 - Validações server-side reforçadas de valores, datas, tipos, moedas e propriedade de recursos.
 - Garantia de atomicidade em operações financeiras relacionadas e consistência de transferências entre cartões de moedas diferentes.
-- Incrementos atômicos robustos em metas financeiras.
+- Aportes em metas passaram a utilizar atualizações atômicas.
 - Proteção contra confirmações repetidas e mensagens de sucesso apenas após resposta válida do servidor.
 - Melhoria na recuperação da interface depois de falhas.
 - Testes comportamentais e estruturais dos principais invariantes financeiros.
 
-Não existe regressão crítica ou alta confirmada aberta dentro do escopo auditado. A fase atual foca na consistência técnica e polimento antes de novas features.
+A fase atual é dedicada à validação integrada, à consistência dos fluxos e ao polimento da experiência antes da expansão do produto.
 
 ---
 
